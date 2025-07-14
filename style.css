@@ -1,0 +1,312 @@
+
+.main-container{
+  position: relative; 
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 100% 100%;
+  animation: gradient-animation 18s ease infinite;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding-top: 5px;
+ 
+}
+.background-slide .background{
+  position:absolute;
+    width: 100%;
+    height: 500px;
+    top: 80px;
+    opacity: 40%;
+    border-top:solid black 10px;
+    border-bottom:solid black 10px;
+    animation: slide 0.75s ease infinite;
+}
+:root {
+  --color-primary: #f6aca2;
+  --color-secondary: #f49b90;
+  --color-tertiary: #f28b7d;
+  --color-quaternary: #f07a6a;
+  --color-quinary: #ee6352;
+}
+
+
+.slogan {
+  text-shadow: 3px 3px 0 var(--color-secondary), 6px 6px 0 var(--color-tertiary),
+    9px 9px var(--color-quaternary), 12px 12px 0 var(--color-quinary);
+  font-family: bungee, sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: calc(2rem + 5vw);
+  text-align: center;
+  margin: 0;
+  color: var(--color-primary);
+  animation: shadows 1.2s ease-in infinite;
+  letter-spacing: 0.4rem;
+}
+
+@keyframes shadows {
+  0% {
+    text-shadow: none;
+  }
+  10% {
+    transform: translate(-3px, -3px);
+    text-shadow: 3px 3px 0 var(--color-secondary);
+  }
+  20% {
+    transform: translate(-6px, -6px);
+    text-shadow: 3px 3px 0 var(--color-secondary),
+      6px 6px 0 var(--color-tertiary);
+  }
+  30% {
+    transform: translate(-9px, -9px);
+    text-shadow: 3px 3px 0 var(--color-secondary),
+      6px 6px 0 var(--color-tertiary), 9px 9px var(--color-quaternary);
+  }
+  40% {
+    transform: translate(-12px, -12px);
+    text-shadow: 3px 3px 0 var(--color-secondary),
+      6px 6px 0 var(--color-tertiary), 9px 9px var(--color-quaternary),
+      12px 12px 0 var(--color-quinary);
+  }
+  50% {
+    transform: translate(-12px, -12px);
+    text-shadow: 3px 3px 0 var(--color-secondary),
+      6px 6px 0 var(--color-tertiary), 9px 9px var(--color-quaternary),
+      12px 12px 0 var(--color-quinary);
+  }
+  60% {
+    text-shadow: 3px 3px 0 var(--color-secondary),
+      6px 6px 0 var(--color-tertiary), 9px 9px var(--color-quaternary),
+      12px 12px 0 var(--color-quinary);
+  }
+  70% {
+    text-shadow: 3px 3px 0 var(--color-secondary),
+      6px 6px 0 var(--color-tertiary), 9px 9px var(--color-quaternary);
+  }
+  80% {
+    text-shadow: 3px 3px 0 var(--color-secondary),
+      6px 6px 0 var(--color-tertiary);
+  }
+  90% {
+    text-shadow: 3px 3px 0 var(--color-secondary);
+  }
+  100% {
+    text-shadow: none;
+  }
+}
+.about .abt{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.name{
+
+   font-weight: bold;
+   color: white;
+      
+}
+#profile .slogan{
+font-size: 40px;
+font-weight: bold;
+}
+.navbar-nav .nav-link{
+  color: white;
+   font-size: 25px;
+   font-weight: bold;
+}
+.container-fluid img{
+  position: relative;
+  left: 100px;
+  width: 100px;
+  height: 60px;
+}
+.navbar-nav{
+position: sticky;
+left:1000px;
+top: 0;
+font-family: 'Times New Roman', Times, serif;
+}
+
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes slide {
+  100% {
+    background-position: 100% 0%;
+  }
+}
+
+.profile-img {
+  border-radius: 50%;
+  border: solid white 5px;
+  height: 250px;
+
+}
+.profile-imgabt {
+  border-radius: 50%;
+  border: solid white 5px;
+  height: 300px;
+  width: 300px;
+
+}
+.btn-project{
+position:static;
+border-radius: 10px;
+width: 320px;
+background-color: aliceblue;
+
+}
+.profile-container{
+position: relative;
+align-items: center;
+bottom: 60px;
+border-bottom: 0;
+padding-bottom: 0;
+}
+.title{
+  font-family: 'Times New Roman', Times, serif;
+}
+.computer{
+  position: absolute;
+  width: 300px;
+  right: 50px;
+  top: 100px;
+  opacity: 30%;
+}
+.basketball{
+    position: absolute;
+  width: 400px;
+  left: 50px;
+  top: 100px;
+}
+.aboutme{
+  position: relative;
+  font-family: 'Times New Roman', Times, serif;
+
+}
+.about{
+  position: relative;
+  top: -120px;
+  margin: 0;
+  padding: 0;
+
+
+}
+.name{
+position: relative;
+left: 20px;
+font-size: 25px;
+color: aliceblue;
+font-weight: normal;
+font-family: 'Times New Roman', Times, serif;
+
+}
+.about h2{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.contact{
+  position:relative;
+  left: 120px;
+  bottom: 50px;
+  display: grid;
+  padding-bottom: 100px;
+  grid-template-columns: 1fr 1fr; 
+}.contactme{
+  background-color: white;
+  width: 400px;  
+}
+.contactimg{
+   position: relative;
+      right:248px;
+      border: 0;
+      padding: 0;
+     opacity: 60%;
+}
+.contactme h3{
+  position: relative;
+  font-family: 'Times New Roman', Times, serif;
+  left: 65px;
+  font-size: 50px;
+  font-weight: bold;
+
+}
+.conicon{
+  position: relative;
+  left: 15px;
+}
+.call{
+  width: 30px;
+}
+.fb{
+  width: 30px;
+}
+.messenger{
+  width: 30px;
+}
+.gm{
+  width: 30px;
+}
+.contactme a{
+ 
+  font-size: 20px;
+}
+
+ @media (min-width: 1300px) and (max-width:1366px) {
+.contactimg {
+ position: relative;
+ right:118px;
+ border: 0; padding: 0;
+}
+.contactme{
+ position: relative;
+ background-color: white;
+  width: 400px; 
+}
+.contact{
+  position:relative;
+  bottom: 160px;
+  left: 70px;
+  border: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  
+}
+.contactme h3{
+  position: relative;
+  font-family: 'Times New Roman', Times, serif;
+  left: 20px;
+  font-size: 50px;
+  font-weight: bold;
+}
+.call{
+  width: 30px;
+}
+.fb{
+  width: 30px;
+}
+.messenger{
+  width: 30px;
+}
+
+.conicon p{
+  display: inline-block;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+}
+.conicon p{
+  display: inline-block;
+}
+
+
